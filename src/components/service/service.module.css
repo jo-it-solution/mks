@@ -1,0 +1,63 @@
+.wrapper {
+    padding-top: calc(var(--mantine-spacing-xl) * 4);
+    padding-bottom: calc(var(--mantine-spacing-xl) * 4);
+    font-family: sans-serif;
+    
+  }
+  
+  .title {
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    font-weight: 700;
+    margin-bottom: var(--mantine-spacing-md);
+    text-align: center;
+    font-size: 3rem;
+  
+    /* @media (max-width: $mantine-breakpoint-sm) {
+      font-size: 28px;
+      text-align: left;
+    } */
+  }
+  
+  .description {
+    text-align: center;
+  
+    /* @media (max-width: $mantine-breakpoint-sm) {
+      text-align: left;
+    } */
+  }
+  .number{
+    border: 0.1rem solid #ffae00;
+    border-radius: 10rem;
+    width: 11%;
+    margin-top: -12rem;
+    margin-bottom: 17rem;
+    padding-left: 0.6rem;
+    
+  }
+ 
+  .cards{
+    margin-top: 7rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    width: 21rem;
+    text-align: justify;
+
+  }
+ 
+  
+  .number:hover,
+  .cards:hover,
+  .divider:hover {
+      background-color: #fff;
+      box-shadow: 0 8px 40px rgba(212, 209, 201, 0.7)
+  }
+  
+  .number:hover + .cards + .divider {
+      background-color: aqua;
+  }
+  
+  .cards:hover + .number + .divider {
+      background-color: aqua;
+  }
+ 

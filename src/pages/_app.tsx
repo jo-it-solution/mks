@@ -12,16 +12,16 @@ import {
 } from "@mantine/core";
 
 const base: MantineColorsTuple = [
-  "#faefef",
-  "#efdcdc",
-  "#e1b5b4",
-  "#d58b8a",
-  "#ca6866",
-  "#c55250",
-  "#c24644",
-  "#ac3836",
-  "#9a302f",
-  "#872727",
+  "#ffae00",
+  "#ffae00",
+  "#ffae00",
+  "#ffae00",
+  "#ffae00",
+  "#ffae00",
+  "#ffae00",
+  "#ffae00",
+  "#ffae00",
+  "#ffffff",
 ];
 
 const theme = createTheme({

@@ -1,0 +1,62 @@
+.body{
+    font-family: sans-serif;
+    margin-left: 1.7rem;
+   
+}
+.title{
+   font-size: 6rem; 
+   font-family: sans-serif;
+}
+
+.icon{
+    border: 0.1 dashed #FFAF02;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    margin-left: 14rem;
+    color: #FFAF02;
+}
+.icon2{
+    border: 0.1 dashed #FFAF02;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    margin-left: 6rem;
+    color: #FFAF02;
+}
+.icon3{
+    border: 0.1 dashed #FFAF02;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    margin-left: 6rem;
+    color: #FFAF02;
+}
+.card{
+    background-color: var(--surface-color);
+    padding: 20px 0 30px 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon:hover{
+    border: 0.2rem solid #ffffff;
+   color: rgb(255, 255, 255);
+   background-color: #FFAF02;
+    
+    
+   
+}
+
+.icon2:hover{
+    border: 0.2rem solid #ffffff;
+   color: rgb(255, 255, 255);
+   background-color: #FFAF02;
+    
+    
+   
+}
+.icon3:hover{
+    border: 0.2rem solid #ffffff;
+   color: rgb(255, 255, 255);
+   background-color: #FFAF02;
+    
+    
+   
+}

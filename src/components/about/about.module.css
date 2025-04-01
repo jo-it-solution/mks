@@ -1,0 +1,42 @@
+.wrapper {
+    padding: calc(var(--mantine-spacing-xl) * 2) var(--mantine-spacing-xl);
+  }
+  
+  .title {
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: var(--mantine-spacing-md);
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  }
+  .texts{
+    text-align: justify;
+
+    
+  }
+  .button{
+    padding: 0rem 2rem 0rem 2rem ;
+  }
+  .button:hover{
+    color: aliceblue;
+    background-color: #ffae00;
+  
+ }
+
+ .card{
+    border: 0.1rem solid #ffae00 ;
+    padding: 1.5rem;
+    border-radius: 1rem;
+ }
+
+ .card:hover{
+    border: 0.2rem solid #ffae00 ;
+    transform: scale(1.02);
+ }
+
+ 

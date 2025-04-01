@@ -1,0 +1,62 @@
+.body{
+    font-family: sans-serif;
+}
+.title{
+   font-size: 6rem; 
+   font-family: sans-serif;
+}
+.text{
+    text-align: justify;
+}
+.title2{
+    font-size: 3rem;
+}
+
+
+.card1{
+    background-color: #fff3e2;
+    padding: 3.2rem;
+    border-radius: 0.8rem;
+    
+}
+.card1:hover{
+   
+    transform: scale(1.05);
+    
+}
+.card2:hover{
+   
+    transform: scale(1.05);
+    
+}
+.card3:hover{
+   
+    transform: scale(1.05);
+    
+}
+.card4:hover{
+   
+    transform: scale(1.05);
+    
+}
+
+
+.card2{
+    background-color: #deedfd;
+    padding: 3.2rem;
+    border-radius: 0.8rem;
+    
+}
+
+.card3{
+    background-color: #d5f1e4;
+    padding: 3.2rem;
+    border-radius: 0.8rem;
+    
+}
+.card4{
+    background-color: #fdeded;
+    padding: 3.2rem;
+    border-radius: 0.8rem;
+    
+}

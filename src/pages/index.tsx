@@ -1,114 +1,218 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+import { useRef } from 'react';
+import Autoplay from 'embla-carousel-autoplay';
+import { Carousel  } from '@mantine/carousel';
+import HeaderMegaMenu from "@/components/header/header";
+import imagess from 'public/welcom.jpg'
+import { Flex, Button,Slider } from '@mantine/core';
+import '@mantine/carousel/styles.css';
+import { Image } from '@mantine/core';
+import classes from './index.module.css';
+import { About } from '@/components/about/about';
+import { FeaturesGrid } from '@/components/service/service';
+import Product from '@/components/product/product';
+import { Container } from 'lucide-react';
+import Satisfaction from '@/components/satisfaction/satisfaction';
+import { FooterLinks } from '@/components/footer/footer';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
+
 
 export default function Home() {
+  const autoplay = useRef(Autoplay({ delay: 4000 }));
   return (
-    <div
-      className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
-    >
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/pages/index.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div >
+       <div style={{ position: 'relative', zIndex: 1,   }}>
+       <div style={{marginTop:"-15rem", marginBottom:"1000rem" , position: 'fixed', zIndex: 1000}}> <HeaderMegaMenu /></div>
+       <div style={{margin:"14.5rem 10rem 10rem 4rem",color:"#FFFFFF", fontSize:"1.8rem", fontFamily:"sans-serif",  width:"50%"  }}><h1  >Mentor Knowledge</h1></div> 
+       <div style={{margin:"-11rem 10rem 10rem 4rem",color:"#FFFFFF", fontSize:"1.8rem", fontFamily:"sans-serif",  width:"50%"  }}><h1  >Solutions</h1></div> 
+       <div style={{margin:"-10rem 10rem 10rem 4rem",color:"#FFFFFF", fontSize:"0.7rem", fontFamily:"sans-serif",  width:"35%"  }}><h1 style={{fontWeight:"5"}}  >Highly Tailored IT Design, 
+       Management & Support Services.</h1></div> 
+      <Flex mt={-105} ml={70}><Button className={classes.button} component="a" href="/about" variant="outline"  color="#FFB413" radius="xl" >Learn More</Button></Flex> 
+      </div>
+      <Flex >
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </Flex>
+      
+    <div >
+    <Carousel
+      withIndicators
+      height={660}
+      mt={-575}
+      plugins={[autoplay.current]}
+      onMouseEnter={autoplay.current.stop}
+      onMouseLeave={autoplay.current.reset}
+    >
+      
+      <Carousel.Slide>
+     
+      <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+      <Image
+        src="welcom.jpg"
+        style={{ 
+          width: '100%', 
+          height: '100%', 
+          objectFit: 'cover',
+          filter: 'grayscale(20%)' 
+        }} 
+       
+      />
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: -150,
+          background: 'linear-gradient(180deg, rgba(153, 152, 152, 0.5), rgb(163, 107, 23))', 
+          pointerEvents: 'none', 
+          
+        }}
+      />
+      
+    </div>
+
+
+      </Carousel.Slide>
+
+      <Carousel.Slide>
+
+<div style={{ position: 'relative', width: '100%', height: '100%' }}>
+<Image
+  src="welcom1.png"
+  style={{ 
+    width: '100%', 
+    height: '100%', 
+    objectFit: 'cover',
+    filter: 'grayscale(20%)' 
+  }} 
+ 
+/>
+<div
+  style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: -150,
+    background: 'linear-gradient(180deg, rgba(153, 152, 152, 0.5), rgb(163, 107, 23))', 
+    pointerEvents: 'none', 
+  }}
+/>
+</div>
+
+
+</Carousel.Slide>
+<Carousel.Slide>
+
+<div style={{ position: 'relative', width: '100%', height: '100%' }}>
+<Image
+  src="welcom2.jpg"
+  style={{ 
+    width: '100%', 
+    height: '100%', 
+    objectFit: 'cover',
+    filter: 'grayscale(20%)' 
+  }} 
+ 
+/>
+<div
+  style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: -150,
+    background: 'linear-gradient(180deg, rgba(153, 152, 152, 0.5), rgb(163, 107, 23))', 
+    pointerEvents: 'none', 
+  }}
+/>
+</div>
+
+
+</Carousel.Slide>
+<Carousel.Slide>
+
+<div style={{ position: 'relative', width: '100%', height: '100%' }}>
+<Image
+  src="welcom3.jpg"
+  style={{ 
+    width: '100%', 
+    height: '100%', 
+    objectFit: 'cover',
+    filter: 'grayscale(20%)' 
+  }} 
+ 
+/>
+<div
+  style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: -150,
+    background: 'linear-gradient(180deg, rgba(153, 152, 152, 0.5), rgb(163, 107, 23))', 
+    pointerEvents: 'none', 
+  }}
+/>
+</div>
+
+
+</Carousel.Slide>
+<Carousel.Slide>
+
+<div style={{ position: 'relative', width: '100%', height: '100%' }}>
+<Image
+  src="welcom.jpg"
+  style={{ 
+    width: '100%', 
+    height: '100%', 
+    objectFit: 'cover',
+    filter: 'grayscale(20%)' 
+  }} 
+ 
+/>
+<div
+  style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: -150,
+    background: 'linear-gradient(180deg, rgba(153, 152, 152, 0.5), rgb(163, 107, 23))', 
+    pointerEvents: 'none', 
+  }}
+/>
+</div>
+
+
+</Carousel.Slide>
+     
+   
+
+
+    </Carousel>
+     </div>
+   
+   <Flex ml={80} mt={50} w={1100}> <About/></Flex>
+  
+  
+   <Flex bg={'#fbfbfd'} pb={300}>
+   <FeaturesGrid/>
+   </Flex>
+
+   <Flex>
+    <Product/>
+    
+   </Flex>
+
+    <div>
+      <Satisfaction/>
+    </div>
+
+    <div>
+      <FooterLinks/>
+    </div>
     </div>
   );
 }
