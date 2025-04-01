@@ -1,7 +1,6 @@
-import { Button, Container, Group, Image, List, Text, ThemeIcon, Title } from '@mantine/core';
+import {  Container,  Image,  Text,  Title } from '@mantine/core';
 import classes from './index.module.css';
 import HeaderMegaMenu from '@/components/header/header';
-import { IconCheck } from '@tabler/icons-react';
 import { FooterLinks } from '@/components/footer/footer';
 
 export default function Product() {
@@ -15,6 +14,7 @@ export default function Product() {
        w={1335.3}
        ml={8}
        mt={-55}
+       alt='image'
       src="product.png"
     />
 
@@ -47,14 +47,14 @@ export default function Product() {
           </Text>
    
         </div>
-        <Image src="logistics.png" className={classes.image} />
+        <Image src="logistics.png" alt='image'className={classes.image} />
       </div>
     </Container>
 
     <Container size="md" mt={0} id='2'>
       <div className={classes.inner}>
         
-        <Image src="ecom.png" mt={-30} className={classes.image1} />
+        <Image src="ecom.png" alt='image' mt={-30} className={classes.image1} />
 
         <div className={classes.content1}>
           <Title className={classes.title}>
@@ -87,14 +87,14 @@ export default function Product() {
           </Text>
    
         </div>
-        <Image src="maveko.png" className={classes.image} />
+        <Image src="maveko.png" alt='image' className={classes.image} />
       </div>
     </Container>
 
     <Container size="md" mt={-10} id='4'>
       <div className={classes.inner}>
         
-        <Image src="sis.png"  className={classes.image2} />
+        <Image src="sis.png" alt='image' className={classes.image2} />
 
         <div className={classes.content1}>
           <Title className={classes.title}>
@@ -129,7 +129,7 @@ export default function Product() {
           </Text>
    
         </div>
-        <Image src="rncare.png" className={classes.image} />
+        <Image src="rncare.png" alt='image' className={classes.image} />
       </div>
     </Container>
 

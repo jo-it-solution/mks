@@ -2,15 +2,15 @@ import { useRef } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel  } from '@mantine/carousel';
 import HeaderMegaMenu from "@/components/header/header";
-import imagess from 'public/welcom.jpg'
-import { Flex, Button,Slider } from '@mantine/core';
+
+import { Flex, Button, } from '@mantine/core';
 import '@mantine/carousel/styles.css';
 import { Image } from '@mantine/core';
 import classes from './index.module.css';
 import { About } from '@/components/about/about';
 import { FeaturesGrid } from '@/components/service/service';
 import Product from '@/components/product/product';
-import { Container } from 'lucide-react';
+
 import Satisfaction from '@/components/satisfaction/satisfaction';
 import { FooterLinks } from '@/components/footer/footer';
 
@@ -49,6 +49,7 @@ export default function Home() {
       <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <Image
         src="welcom.jpg"
+        alt='image'
         style={{ 
           width: '100%', 
           height: '100%', 
@@ -80,6 +81,7 @@ export default function Home() {
 <div style={{ position: 'relative', width: '100%', height: '100%' }}>
 <Image
   src="welcom1.png"
+  alt='image'
   style={{ 
     width: '100%', 
     height: '100%', 
@@ -108,6 +110,7 @@ export default function Home() {
 <div style={{ position: 'relative', width: '100%', height: '100%' }}>
 <Image
   src="welcom2.jpg"
+  alt='image'
   style={{ 
     width: '100%', 
     height: '100%', 
@@ -136,6 +139,7 @@ export default function Home() {
 <div style={{ position: 'relative', width: '100%', height: '100%' }}>
 <Image
   src="welcom3.jpg"
+  alt='image'
   style={{ 
     width: '100%', 
     height: '100%', 
@@ -164,6 +168,7 @@ export default function Home() {
 <div style={{ position: 'relative', width: '100%', height: '100%' }}>
 <Image
   src="welcom.jpg"
+  alt='image'
   style={{ 
     width: '100%', 
     height: '100%', 
@@ -194,7 +199,7 @@ export default function Home() {
     </Carousel>
      </div>
    
-   <Flex ml={80} mt={50} w={1100}> <About/></Flex>
+    <Flex ml={80} mt={50} w={1100}> <About/></Flex>
   
   
    <Flex bg={'#fbfbfd'} pb={300}>
@@ -212,7 +217,7 @@ export default function Home() {
 
     <div>
       <FooterLinks/>
-    </div>
+    </div> 
     </div>
   );
 }

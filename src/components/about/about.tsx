@@ -61,6 +61,7 @@ export function About() {
                  mt={-15}
                  mb={40}
                   src="Vector 1.png"
+                  alt='image'
                 />
           <Text c="dimmed" className={classes.texts} >
           Mentor Knowledge Solutions PLC is an IT and Management Consulting

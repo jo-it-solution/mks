@@ -1,4 +1,4 @@
-import { Image, Title ,Container, Text, Flex,Box } from '@mantine/core';
+import { Image, Title , Text, Flex,Box } from '@mantine/core';
 import classes from './index.module.css';
 import HeaderMegaMenu from '@/components/header/header';
 import {Clock, Users ,ArrowUpNarrowWide,UsersRound,MonitorCog , User ,RefreshCcwDot } from 'lucide-react';
@@ -17,6 +17,7 @@ export default function Service() {
        w={1340}
        ml={0}
        mt={-63}
+       alt='image'
       src="service.png"
     />
 

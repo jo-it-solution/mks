@@ -1,6 +1,6 @@
 
 import classes from './satisfaction.module.css';
-import { Box , Flex, Image ,Title} from '@mantine/core';
+import { Box , Image ,Title} from '@mantine/core';
 
 export default function Satisfaction() {
   return (
@@ -39,6 +39,7 @@ export default function Satisfaction() {
       src="logo1.png"
       mt={-500}
       ml={400}
+       alt='image'
     />
 
 <Image
@@ -48,6 +49,7 @@ export default function Satisfaction() {
       w={120}
       mt={-560}
       ml={440}
+       alt='image'
     />  
 
 <Image
@@ -57,6 +59,7 @@ export default function Satisfaction() {
       w={120}
       mt={20}
       ml={700}
+       alt='image'
     />   
 
 <Image
@@ -66,6 +69,7 @@ export default function Satisfaction() {
       w={120}
       mt={100}
       ml={720}
+       alt='image'
     />  
 
 
@@ -76,6 +80,7 @@ export default function Satisfaction() {
       w={120}
       mt={80}
       ml={450}
+       alt='image'
     /> 
            
            <Image
@@ -85,6 +90,7 @@ export default function Satisfaction() {
       w={120}
       mt={-520}
       ml={210}
+       alt='image'
     />   
 
 <Image
@@ -94,6 +100,7 @@ export default function Satisfaction() {
       w={120}
       mt={100}
       ml={220}
+       alt='image'
     />   
 
 </div>   

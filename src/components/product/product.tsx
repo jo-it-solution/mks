@@ -24,6 +24,7 @@ export default function Product() {
       w="auto"
       fit="contain"
       src="card1.jpg"
+       alt='image'
       className={classes.Images}
       
     />
@@ -67,6 +68,7 @@ order-to-cash business operation.
       w="auto"
       fit="contain"
       src="card2.jpg"
+       alt='image'
       className={classes.Images}
       
     />
@@ -108,6 +110,7 @@ order-to-cash business operation.
       w="auto"
       fit="contain"
       src="card3.jpg"
+       alt='image'
       className={classes.Images}
       
     />
@@ -152,6 +155,7 @@ order-to-cash business operation.
       w="auto"
       fit="contain"
       src="card4.jpg"
+       alt='image'
       className={classes.Images}
       
     />
@@ -189,6 +193,7 @@ order-to-cash business operation.
       w="auto"
       fit="contain"
       src="card5.jpg"
+       alt='image'
       className={classes.Images}
       
     />
@@ -228,6 +233,7 @@ order-to-cash business operation.
       w="auto"
       fit="contain"
       src="card6.jpg"
+       alt='image'
       className={classes.Images}
       
     />

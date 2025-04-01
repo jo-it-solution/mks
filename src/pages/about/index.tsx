@@ -1,4 +1,4 @@
-import { Image, Title ,Container, Text } from '@mantine/core';
+import { Image, Title , Text } from '@mantine/core';
 import classes from './index.module.css';
 
 import { FooterLinks } from '@/components/footer/footer';
@@ -20,6 +20,7 @@ export default function About() {
        w={800}
        ml={543}
        mt={-20}
+       alt='image'
       src="about.png"
     />
 
@@ -41,6 +42,7 @@ export default function About() {
        w={680}
        ml={-8}
        mt={430}
+       alt='image'
       src="vision.png"
     />
     <Title mt={-840} ml={855} c="dimmed"  className={classes.title2} >
@@ -57,6 +59,7 @@ export default function About() {
        w={25}
        ml={690}
        mt={-50}
+       alt='image'
       src="icon.png"
     />
 
@@ -76,6 +79,7 @@ export default function About() {
        ml={690}
        mt={-70}
        mb={60}
+       alt='image'
       src="icon.png"
     />
 <Image
@@ -84,7 +88,7 @@ export default function About() {
       h={60}
       ml={700}
       mt={-61}
-      
+      alt='image'
      src="line.png"
    />
 <Text ml={740} c="dimmed"  w={580} mt={-5}>
@@ -99,6 +103,7 @@ consumer apps based on business process management concepts
        ml={690}
        mt={-50}
        mb={60}
+       alt='image'
       src="icon.png"
     />
     <Image
@@ -107,7 +112,7 @@ consumer apps based on business process management concepts
       h={60}
       ml={700}
       mt={-61}
-      
+      alt='image'
      src="line.png"
    />
  <Text ml={740} c="dimmed" w={580} mt={-5}>
@@ -121,6 +126,7 @@ consumer apps based on business process management concepts
        ml={690}
        mt={-50}
        mb={60}
+       alt='image'
       src="icon.png"
     />
     <Image
@@ -129,7 +135,7 @@ consumer apps based on business process management concepts
       h={60}
       ml={700}
       mt={-61}
-      
+      alt='image'
      src="line.png"
    />
  <Text ml={740} c="dimmed" w={580} mt={-5}>
@@ -143,6 +149,7 @@ consumer apps based on business process management concepts
        ml={690}
        mt={-50}
        mb={60}
+       alt='image'
       src="icon.png"
     />
     <Image
@@ -151,7 +158,7 @@ consumer apps based on business process management concepts
       h={60}
       ml={700}
       mt={-61}
-      
+      alt='image'
      src="line.png"
    />
  <Text ml={740} c="dimmed" w={580} mt={-5}>
@@ -166,6 +173,7 @@ consumer apps based on business process management concepts
        ml={690}
        mt={-50}
        mb={60}
+       alt='image'
       src="icon.png"
     />
     <Image
@@ -174,7 +182,7 @@ consumer apps based on business process management concepts
       h={60}
       ml={700}
       mt={-61}
-      
+      alt='image'
      src="line.png"
    />
  <Text ml={740} c="dimmed"  w={580} mt={-6}>
@@ -187,6 +195,7 @@ consumer apps based on business process management concepts
        ml={690}
        mt={-20}
        mb={100}
+       alt='image'
       src="icon.png"
     />
 
@@ -196,7 +205,7 @@ consumer apps based on business process management concepts
        h={60}
        ml={700}
        mt={-101}
-       
+       alt='image'
       src="line.png"
     />
 <Text ml={740} c="dimmed"  w={580} mt={-15}>
@@ -209,6 +218,7 @@ consumer apps based on business process management concepts
        w={25}
        ml={690}
        mt={-20}
+       alt='image'
       src="icon.png"
     />
 
@@ -220,6 +230,7 @@ consumer apps based on business process management concepts
        w={650}
        ml={693.4}
        mt={-10}
+       alt='image'
       src="value.png"
     />
 
@@ -234,6 +245,7 @@ Working hard to make a difference in the organizations we serve
        ml={40}
        mt={-28}
        mb={60}
+       alt='image'
       src="icon.png"
     />
 
@@ -243,7 +255,7 @@ Working hard to make a difference in the organizations we serve
        h={60}
        ml={50}
        mt={-61}
-       
+       alt='image'
       src="line.png"
     />
 <Text ml={80} c="dimmed"  w={580} mt={-15}>
@@ -256,6 +268,7 @@ Striving to handle each client with accountability and responsiveness
        ml={40}
        mt={-25}
        mb={60}
+       alt='image'
       src="icon.png"
     />
 
@@ -265,7 +278,7 @@ Striving to handle each client with accountability and responsiveness
       h={60}
       ml={50}
       mt={-61}
-      
+      alt='image'
      src="line.png"
    />
 <Text ml={80} c="dimmed" w={580} mt={-18}>
@@ -279,6 +292,7 @@ innovation
        ml={40}
        mt={-25}
        mb={60}
+       alt='image'
       src="icon.png"
     />
     <Image
@@ -287,7 +301,7 @@ innovation
       h={60}
       ml={50}
       mt={-61}
-      
+      alt='image'
      src="line.png"
    />
 <Text ml={80} c="dimmed" w={580} mt={-15}>
@@ -301,6 +315,7 @@ and team work
        ml={40}
        mt={-25}
        mb={60}
+       alt='image'
       src="icon.png"
     />
 
@@ -310,7 +325,7 @@ and team work
        h={60}
        ml={50}
        mt={-61}
-       
+       alt='image'
       src="line.png"
     />    
 <Text ml={80} c="dimmed"  w={580} mt={-20}>
@@ -324,6 +339,7 @@ ship, command respect
        ml={40}
        mt={-50}
        mb={60}
+       alt='image'
       src="icon.png"
     />
 
@@ -334,7 +350,7 @@ ship, command respect
        h={60}
        ml={50}
        mt={-61}
-       
+       alt='image'
       src="line.png"
     />
 <Text ml={80} c="dimmed" w={580} mt={-5}>
@@ -347,6 +363,7 @@ Create an atmosphere where all staff are respected and valued
        ml={40}
        mt={-25}
        mb={160}
+       alt='image'
       src="icon.png"
     />
 

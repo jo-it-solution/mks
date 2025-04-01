@@ -1,4 +1,4 @@
-import { Flex ,Box, Text, Title ,Image, Center } from '@mantine/core';
+import { Flex ,Box, Text, Title ,Image } from '@mantine/core';
 import classes from './index.module.css';
 
 import {MapPin ,PhoneCall ,Mail } from 'lucide-react';
@@ -21,6 +21,7 @@ export default function Contact() {
            w={90}
            ml={615} 
            src="line2.png"
+           alt='image'
          />
 
       <Flex ml={100} mt={100} gap={10}>

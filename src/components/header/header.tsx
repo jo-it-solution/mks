@@ -2,13 +2,13 @@ import {
     IconTir,
     IconUsersGroup,
     IconChevronDown,
-    IconCode,
     IconPhysotherapist,
     IconBrandDatabricks,
     IconNotification,
     IconTransfer,
   } from '@tabler/icons-react';
   import { Image } from '@mantine/core';
+
   import {
     Anchor,
     Box,
@@ -121,13 +121,15 @@ import { useState , useEffect} from 'react';
       h={100}
       className="image"
       src="logo.png"
+       alt='image'
     />
+     
   
             <Group h="100%" gap={0} visibleFrom="md">
-              <a href="/" className="link">
+              <a href="" className="link">
                 Home
               </a>
-              <a href="/about" className="link">
+              <a href="about" className="link">
                 About
               </a>
               <a href="service" className="link">

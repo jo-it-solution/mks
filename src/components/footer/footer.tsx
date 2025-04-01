@@ -2,7 +2,6 @@ import { IconBrandInstagram, IconBrandTwitter, IconBrandYoutube } from '@tabler/
 import { ActionIcon, Container, Group, Text,Image, Divider } from '@mantine/core';
 
 import classes from './Footer.module.css';
-import { Divide } from 'lucide-react';
 
 const data = [
   {
@@ -69,6 +68,7 @@ export function FooterLinks() {
       
       
       src="whitelogo.png"
+       alt='image'
       w={70}
       
          />
